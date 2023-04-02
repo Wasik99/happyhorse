@@ -186,7 +186,6 @@ body{
 }
 .line{
     margin: 0 auto;
-    margin-top: 200px;
     width: 65%;
     height: 100%;
     background: url(img/Line.png);
