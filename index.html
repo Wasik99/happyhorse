@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="icon" type="image/x-icon" href="img/horseicon.png">
+        
     </head>
     <body>
         <div id="scrollTop"><img src="img/back.png"></div>
@@ -33,8 +34,9 @@
         </div>
         <div class="onas">
             <div class="photo-onas">
-                <img id="goldborder1" src="img/gold-border.png">
-                <img id="goldborder2" src="img/gold-border.png">
+                <img src="img/webphoto1.jpg">
+                <!-- <img id="goldborder1" src="img/gold-border.png">
+                <img id="goldborder2" src="img/gold-border.png"> -->
             </div>
             <div class="text-onas">
                 <h1>O nas</h1>
@@ -66,7 +68,7 @@
                     </div>
                 </div>
                 <div class="kwal-right">
-                    <div class="kwal-photo"></div>
+                    <img src="img/DSC_0560.jpg">
                 </div>
             </div>
         </div>
@@ -91,11 +93,8 @@
         </div>
         <div class="foot"></div>
     </body>
+    <script src="upbutton.js"></script>
     <script>
-        document.getElementById('scrollTop').addEventListener('click', function() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
         $(document).ready(function() {
             $('.slideshow').cycle({
                 fx: 'fade',
