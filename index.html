@@ -12,7 +12,16 @@
         <div id="scrollTop"><img src="img/back.png"></div>
         <div class="mobile-bar">
             <img src="img/logo.png" class="logo">
-            <img src="img/menu.png" class="menu-icon">
+            <img src="img/menu.png" onclick="openNav()" class="menu-icon">
+        </div>
+        <div id="sidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">STRONA GŁÓWNA</a>
+            <a>OFERTA</a>
+            <a href="nauka.html">&nbsp;&nbsp;&nbsp;NAUKA JAZDY</a>
+            <a href="hotel.html">&nbsp;&nbsp;&nbsp;HOTEL</a>
+            <a href="stajnia.html">NASZA STAJNIA</a>
+            <a href="kontakt.html">KONTAKT</a>
         </div>
         <div class="top-bar">
             <div class="navbar">
@@ -102,6 +111,7 @@
         <div class="foot"></div>
     </body>
     <script src="upbutton.js"></script>
+    <script src="nav.js"></script>
     <script>
         $(document).ready(function() {
             $('.slideshow').cycle({
@@ -112,5 +122,7 @@
                 prev: '#prev'
             });
             });
+
+        
     </script>
 </html>
