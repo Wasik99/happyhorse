@@ -50,6 +50,9 @@ body{
     width: 75%;
     /* background-color: purple; */
 }
+.sidepanel{
+    display: none;
+}
 .logo{
     width: 101px;
     height: 72px;
